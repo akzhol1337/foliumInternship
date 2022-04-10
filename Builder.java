@@ -21,7 +21,7 @@ class Laptop {
         
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Integer price) {
         this.price = price;
     }
 
@@ -37,7 +37,7 @@ class Laptop {
         return this.OS;
     }
 
-    public int getPrice() {
+    public Integer getPrice() {
         return this.price;
     }
 
@@ -62,7 +62,7 @@ class LaptopBuilder {
         return this;
     }
 
-    public LaptopBuilder setPrice(int price){
+    public LaptopBuilder setPrice(Integer price){
         laptop.setPrice(price);
         return this;
     }
