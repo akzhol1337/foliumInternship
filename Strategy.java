@@ -2,7 +2,7 @@ interface Activity {
     void doJob();
 }
 
-class Akzhol {
+class Person {
     Activity activity;
     
     void setActivity(Activity activity) {
@@ -40,7 +40,7 @@ class Repeat implements Activity {
 
 class Strategy {
     public static void main(String[] args) {
-        Akzhol akzhol = new Akzhol();
+        Person akzhol = new Person();
         
         akzhol.setActivity(new Eat());
         akzhol.executeJob();
